@@ -12,7 +12,7 @@ function courses() {
                     name={CourseList[key].Name} 
                     price={CourseList[key].price} 
                     tagline={CourseList[key].tagline}
-                    id={CourseList[key].id}/>
+                    id={key}/>
     })
 
     return (

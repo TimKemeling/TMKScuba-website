@@ -7,9 +7,7 @@ import Courses from './pages/Courses';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import CoursePage from './Components/CoursePage';
-
-
+import Course from './pages/Course';
 
 function App() {
   return (
@@ -21,7 +19,7 @@ function App() {
           <Route path="/courses" element={<Courses />}/>
           <Route path="/about" element={<About />}/>
           <Route path="/contact" element={<Contact />}/>
-          <Route path="/course/:id" element ={<CoursePage />}/>
+          <Route path="/course/:id" element ={<Course />}/>
         </Routes>
         <Footer />
       </Router>
