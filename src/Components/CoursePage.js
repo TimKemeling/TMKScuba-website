@@ -2,7 +2,7 @@ import React from 'react';
 // import OWD from "../assets/OWD.jpg";
 
 
-function CoursePage({image, name, description, price, id}) {
+function CoursePage({image, name, description, price}) {
     return (
         <div className="course">
             <h2>{name}</h2>

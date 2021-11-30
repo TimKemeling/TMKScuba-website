@@ -4,7 +4,7 @@ import { CourseList } from '../helpers/CourseList';
 import { useParams } from "react-router-dom";
 
 function Course() {
-    const { courseId } = useParams() ;
+    const { courseId } = useParams();
     const CourseObject = CourseList.find(course => course.id === { courseId } )
 
     return (

@@ -8,7 +8,7 @@ function courseCard({ image,  name, tagline, price, id}) {
                 <h3>{name}</h3>
                 <p>{tagline}</p>
                 <p>${price}</p>   
-                <Link to={`/course/:${id}`} >
+                <Link to={`/course/${id}`} >
                     <button> Learn more </button>
                 </Link>  
         </div>

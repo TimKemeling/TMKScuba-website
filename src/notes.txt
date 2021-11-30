@@ -1,0 +1,10 @@
+So…
+
+
+Rearrange the data in the helpers/CourseList file to be an object with key value pairs, the keys being the url
+
+
+Then fix the urls in the courses page, you’ll need to loop through them slightly differently
+
+
+Then fix the import in the App.is folder to import the pages/Course file and update the element in the route
