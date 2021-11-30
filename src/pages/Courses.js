@@ -1,23 +1,25 @@
 import React from 'react';
-import { CourseList } from '../helpers/CourseList';
+import CourseList from '../helpers/CourseList';
 import CourseCard from '../Components/courseCard';
 import "../styles/Courses.css";
 
 function courses() {
+
+    const coursesList = Object.keys(CourseList).map((key) => {
+        return <CourseCard
+                    key={key}
+                    image={CourseList[key].Image} 
+                    name={CourseList[key].Name} 
+                    price={CourseList[key].price} 
+                    tagline={CourseList[key].tagline}
+                    id={CourseList[key].id}/>
+    })
+
     return (
         <div className="courses">
             <h1 className="coursesTitle">Courses</h1>
             <div className="CoursesList">
-                {CourseList.map((course, key) => {
-                    return <CourseCard
-                                key={key}
-                                image={course.Image} 
-                                name={course.Name} 
-                                price={course.price} 
-                                tagline={course.tagline}
-                                id={course.id}/>
-                    }
-                )}
+                {coursesList}                
             </div>
         </div>
     )

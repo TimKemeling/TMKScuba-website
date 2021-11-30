@@ -9,7 +9,7 @@ import Wreck from "../assets/Wreck.jpg";
 import XRSM from "../assets/XRSM.jpg";
 
 
-export const CourseList = {
+const CourseList = {
     
     OpenWater: {
     Name:"Open Water",
@@ -94,3 +94,5 @@ export const CourseList = {
     }
         
 }
+
+export default CourseList

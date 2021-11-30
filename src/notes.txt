@@ -1,6 +1,6 @@
 So…
 
-
+DONE
 Rearrange the data in the helpers/CourseList file to be an object with key value pairs, the keys being the url
 
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-function courseCard({ image,  name, tagline, price, id}) {
+function courseCard({ image,  name, tagline, price, key}) {
     return (
         <div className="courseCard" >
             <div className="cardImage" style={{ backgroundImage: `url(${image})`}}></div>
