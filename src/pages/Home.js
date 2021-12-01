@@ -13,7 +13,7 @@ function Home() {
             >
                 <h1>TMK Scuba</h1>
                 <p>Diving at any level, for any level</p>
-                <Link to="/courses">
+                <Link to="/courses" tabIndex="-1">
                     <button> BOOK NOW </button>
                 </Link>    
             </div>

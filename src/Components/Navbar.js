@@ -11,7 +11,7 @@ function Navbar() {
     
     const toggleNavBar = () => {
         setOpenLinks(!openLinks)
-    }
+    } 
     
     return (
         <div className='navbar'>

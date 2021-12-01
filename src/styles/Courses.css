@@ -23,7 +23,6 @@
     flex-direction: column;
     border-radius: 5px;
     width: 250px;
-    height: auto;
     margin: 25px 0px; 
     background-color: #121619;
     box-shadow: 5px 5px 5px #232427;
@@ -52,7 +51,7 @@
 }
 
 .courseCard p {
-    font-size: 1rem;
+    padding: 0 1em;
 }
 
 .courseCard a {
@@ -76,10 +75,12 @@
     border-bottom: none;
 }
 
-.courseCard button:hover {
+.courseCard button:hover,
+.courseCard button:focus {
     background-color: #232427;
     cursor: pointer;
     transition: 0.2s ease-in;
+    outline: none;
 }
 
 @media only screen and (max-width: 850px) {
